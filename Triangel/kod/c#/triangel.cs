@@ -43,7 +43,7 @@ public class Triangle {
   }
 
   public bool isScalene() {
-    if(uniqueSides()==1)
+    if(uniqueSides()==3)
       return true;
     return false;
   }
@@ -55,7 +55,7 @@ public class Triangle {
   }
 
   public bool isIsosceles() {
-    if(uniqueSides()==2)
+    if(uniqueSides()==1)
       return true;
     return false;
   }
