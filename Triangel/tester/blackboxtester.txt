@@ -1,0 +1,21 @@
+﻿tester
+
+num	typ	förväntat	utfall		indata				            Misslyckas
+1	TtP	Likbent		Likbent		1       1	    2	
+2	TtP	inga Lika	inga Lika	1	    2	    3
+3	TtP	Liksidig	Liksidig	1	    1	    1
+4	TtP	Liksidig	Liksidig	0,001	0,001   0,001	
+5	TtP	Liksidig	Liksidig	9999,0	9999	9999
+6	TtP	Liksidig	Liksidig	1.0	    1	    1	
+7	TtF	-		    Liksidig	0	    0	    0		        x
+8	TtF	-		    Likbent		1	    0	    0		        x
+9	TtF	-		    exception	'a'     'a'     'a'
+10	TtF	-		    Liksidig	null	null	null		    x
+11	TtF	-		    Liksidig	1       null	null		    x
+12	TtF	-		    Liksidig	-1      -1      -1		        x
+13	TtF	-		    Likbent		1       -1      -1		        x
+14	TtF	-		    Liksidig	1       blank	1	    1	
+
+
+Slutsats
+Programmet beter sig som förväntat när man använder korrekt indata. Programmet verkar byggt för att ta emot tre possitiva siffror med decimalkomma.
