@@ -49,13 +49,13 @@ public class Triangle {
   }
 
   public bool isEquilateral() {
-    if(uniqueSides()==3)
+    if(uniqueSides()==1)
       return true;
     return false;
   }
 
   public bool isIsosceles() {
-    if(uniqueSides()==1)
+    if(uniqueSides()==2)
       return true;
     return false;
   }
