@@ -1,4 +1,4 @@
-﻿tester
+Tester
 
 num	typ	förväntat	utfall		indata				            Misslyckas
 1	TtP	Likbent		Likbent		1       1	    2	
