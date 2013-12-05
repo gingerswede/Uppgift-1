@@ -6,11 +6,11 @@ num typ   förväntat   utfall      indata                  Avvikade/Misslyckade
 3   TtP   Liksidig    Liksidig    1     1     1
 4   TtP   Liksidig    Liksidig    0,001 0,001 0,001
 5   TtP   Likbent     Liksidig    0,001 0,001 0,002       x
-6   TtP   Likbent     Liksidig    0,1   0,1   0,2         x
+6   TtP   inga Lika   Liksidig    1,0   1,1   0,99        x
 7   TtP   Liksidig    Liksidig    1.0   1     1	
 8   TtF   -           Liksidig    0     0     0           x
 9   TtF   -           Likbent     1     0     0           x
-10   TtF   -           exception   'a'   'a'   'a'
+10  TtF   -           exception   'a'   'a'   'a'
 11  TtF   -           Liksidig    null  null  null        x
 12  TtF   -           Liksidig    1     null  null        x
 13  TtF   -           Liksidig    -1    -1    -1          x
@@ -19,4 +19,4 @@ num typ   förväntat   utfall      indata                  Avvikade/Misslyckade
 
 
 Slutsats
-Programmet beter sig som förväntat när man använder korrekt indata. Programmet verkar byggt för att ta emot tre possitiva siffror med decimalkomma.
+Programmet verkar trunkera decimaler.
